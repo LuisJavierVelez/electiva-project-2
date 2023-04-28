@@ -26,6 +26,17 @@ export const MenuSider = (props) => {
         { key: "clients/new",  icon: <TeamOutlined />, label: "Eliminar" },
       ],
     },
+    {
+      key: "servicios",
+      icon: <HomeOutlined />,
+      label: "Servicios",
+      subMenu: [
+        { key: "servicios/list",  icon: <TeamOutlined />, label: "Lista Servicios" },
+        { key: "servicios/new",  icon: <TeamOutlined />, label: "Nuevo Servicios" },
+        { key: "servicios/new",  icon: <TeamOutlined />, label: "Modificar Servicios" },
+        { key: "servicios/new",  icon: <TeamOutlined />, label: "Eliminar" },
+      ],
+    },
     
   ];
 
